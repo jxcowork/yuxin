@@ -1,0 +1,52 @@
+[11:11:54.520] {main} java.lang.UnsatisfiedLinkError: no resin in java.library.path
+[11:11:54.520] {main} 	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1738)
+[11:11:54.520] {main} 	at java.lang.Runtime.loadLibrary0(Runtime.java:823)
+[11:11:54.520] {main} 	at java.lang.System.loadLibrary(System.java:1028)
+[11:11:54.520] {main} 	at com.caucho.server.util.CauchoSystem.<clinit>(CauchoSystem.java:489)
+[11:11:54.520] {main} 	at com.caucho.log.TimestampFilter.write(TimestampFilter.java:202)
+[11:11:54.520] {main} 	at com.caucho.vfs.WriteStream.flush(WriteStream.java:357)
+[11:11:54.520] {main} 	at com.caucho.log.StreamHandler.publish(StreamHandler.java:122)
+[11:11:54.520] {main} 	at com.caucho.log.SubHandler.publish(SubHandler.java:60)
+[11:11:54.520] {main} 	at java.util.logging.Logger.log(Logger.java:509)
+[11:11:54.520] {main} 	at java.util.logging.Logger.doLog(Logger.java:531)
+[11:11:54.520] {main} 	at java.util.logging.Logger.log(Logger.java:554)
+[11:11:54.520] {main} 	at java.util.logging.Logger.fine(Logger.java:1105)
+[11:11:54.520] {main} 	at com.caucho.boot.WatchdogClient.launchManager(WatchdogClient.java:317)
+[11:11:54.520] {main} 	at com.caucho.boot.WatchdogClient.startWatchdog(WatchdogClient.java:209)
+[11:11:54.520] {main} 	at com.caucho.boot.ResinBoot.start(ResinBoot.java:172)
+[11:11:54.520] {main} 	at com.caucho.boot.ResinBoot.main(ResinBoot.java:295)
+[11:11:54.520] {main} java.lang.UnsatisfiedLinkError: no resin in jav[11:17:20.644] {main} java.lang.UnsatisfiedLinkError: no resin in java.library.path
+[11:17:20.644] {main} 	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1738)
+[11:17:20.644] {main} 	at java.lang.Runtime.loadLibrary0(Runtime.java:823)
+[11:17:20.644] {main} 	at java.lang.System.loadLibrary(System.java:1028)
+[11:17:20.644] {main} 	at com.caucho.server.util.CauchoSystem.<clinit>(CauchoSystem.java:489)
+[11:17:20.644] {main} 	at com.caucho.log.TimestampFilter.write(TimestampFilter.java:202)
+[11:17:20.644] {main} 	at com.caucho.vfs.WriteStream.flush(WriteStream.java:357)
+[11:17:20.644] {main} 	at com.caucho.log.StreamHandler.publish(StreamHandler.java:122)
+[11:17:20.644] {main} 	at com.caucho.log.SubHandler.publish(SubHandler.java:60)
+[11:17:20.644] {main} 	at java.util.logging.Logger.log(Logger.java:509)
+[11:17:20.644] {main} 	at java.util.logging.Logger.doLog(Logger.java:531)
+[11:17:20.644] {main} 	at java.util.logging.Logger.log(Logger.java:554)
+[11:17:20.644] {main} 	at java.util.logging.Logger.fine(Logger.java:1105)
+[11:17:20.644] {main} 	at com.caucho.server.hmux.HmuxStream.readData(HmuxStream.java:615)
+[11:17:20.644] {main} 	at com.caucho.server.hmux.HmuxStream.getConnInputImpl(HmuxStream.java:548)
+[11:17:20.644] {main} 	at com.caucho.server.hmux.HmuxStream.getConnInput(HmuxStream.java:458)
+[11:17:20.644] {main} 	at com.caucho.server.hmux.HmuxStream.getAttribute(HmuxStream.java:293)
+[11:17:20.644] {main} 	at com.caucho.server.hmux.HmuxStreamWrapper.getAttribute(HmuxStreamWrapper.java:115)
+[11:17:20.644] {main} 	at com.caucho.vfs.ReadStream.getAttribute(ReadStream.java:1119)
+[11:17:20.644] {main} 	at com.caucho.server.admin.HessianHmuxProxy.invoke(HessianHmuxProxy.java:112)
+[11:17:20.644] {main} 	at com.sun.proxy.$Proxy5.stop(Unknown Source)
+[11:17:20.644] {main} 	at com.caucho.boot.WatchdogClient.stopWatchdog(WatchdogClient.java:218)
+[11:17:20.644] {main} 	at com.caucho.boot.WatchdogClient.restartWatchdog(WatchdogClient.java:256)
+[11:17:20.644] {main} 	at com.caucho.boot.ResinBoot.start(ResinBoot.java:238)
+[11:17:20.644] {main} 	at com.caucho.boot.ResinBoot.main(ResinBoot.java:295)
+[11:17:20.646] {main} java.lang.UnsatHMUX: M 8
+[11:17:20.646] {main} HMUX: S 1
+[11:17:20.646] {main} HMUX: H 14
+[11:17:20.646] {main} HMUX: S 1
+[11:17:20.647] {main} HMUX: H 12
+[11:17:20.647] {main} HMUX: S 21
+[11:17:20.647] {main} HMUX: G 0
+[11:17:20.647] {main} HMUX: D 5
+[11:17:20.650] {main} HMUX: Q
+[11:17:25.651] {main} WatchdogClient[] starting ResinWatchdogManager
