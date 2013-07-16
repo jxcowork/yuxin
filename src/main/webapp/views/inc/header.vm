@@ -1,0 +1,19 @@
+  <head>
+    <meta charset="utf-8">
+    <title>$!C.title.value - $!C.company.value</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="${contextPath}/${bootstrap_home}/css/bootstrap.css?ver=$revxxx$" />
+
+    <style type="text/css">
+      body {
+        padding: 0px;
+      }
+    </style>
+    <link href="${contextPath}/${bootstrap_home}/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="${contextPath}/css/bootstrap-suitable.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" />
+  </head>
